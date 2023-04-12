@@ -76,10 +76,13 @@
   .kirillotin_content_wrapper {
     flex-direction: column;
   }
+  .kirillotin_alert {
+    width: 90%;
+  }
   .kirillotin_inputs {
-    width: 100%;
+    width: 90%;
   }
   .kirillotin_result {
-    width: 100%;
+    width: 90%;
   }
 }

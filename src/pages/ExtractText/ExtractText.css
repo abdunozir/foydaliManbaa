@@ -151,4 +151,7 @@ select {
   .extractText_result_wrapper {
     width: 100%;
   }
+  .extractText_alert {
+    width: 90%;
+  }
 }

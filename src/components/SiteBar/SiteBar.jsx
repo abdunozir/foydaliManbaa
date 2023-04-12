@@ -18,7 +18,7 @@ export default function SiteBar({ openHeader, setOpenHeader }) {
             className="SiteNav_logo"
             to={"/"}
           >
-            foydali Manbaa
+            Foydali Manbaa
           </Link>
         </li>
         <li>

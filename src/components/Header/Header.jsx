@@ -12,7 +12,7 @@ export default function Header() {
     <div className="header">
       <h2>
         <Link className="header_logo" to={"/"}>
-          foydali Manbaa
+          Foydali Manbaa
         </Link>
       </h2>
       <nav className="nav">
