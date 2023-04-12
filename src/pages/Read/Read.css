@@ -1,0 +1,48 @@
+.read {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.read_alert {
+  max-width: 1000px;
+  padding: 10px;
+  border: 1px solid #66abe0;
+  color: #66abe0;
+  font-size: 0.9em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.read_inputs {
+  max-width: 600px;
+  width: 90%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.read_inputs textarea {
+  width: 100%;
+  height: 80%;
+  padding: 0.6em;
+  font-size: 1em;
+  background-color: #282c34;
+  color: white;
+  outline: none;
+  border: 1px solid #dfe0e4;
+}
+.read_select {
+}
+
+.read a {
+  color: #dfe0e4;
+  text-decoration: none;
+  font-size: 1em;
+}

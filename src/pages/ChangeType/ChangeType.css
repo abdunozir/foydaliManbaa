@@ -1,0 +1,55 @@
+.changeType {
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+}
+
+.changeType_title {
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.changeType_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.changeType_inputs {
+  max-width: 500px;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #282c34;
+  transition: all 0.6s;
+}
+
+.changeType_select {
+  cursor: pointer;
+  padding: 4px 6px;
+}
+
+#changeType_inputfile {
+  display: none;
+}
+
+.changeType_input {
+  color: white;
+  cursor: pointer;
+}
+
+.changeType_output {
+  max-width: 500px;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #282c34;
+}

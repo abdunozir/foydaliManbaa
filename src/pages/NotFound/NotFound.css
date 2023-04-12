@@ -1,0 +1,36 @@
+.NotFound {
+  height: 100vh;
+  text-align: center;
+  padding-top: 5em;
+}
+
+.NotFound_title {
+  font-size: 10em;
+  font-weight: 700;
+  color: #848689;
+  line-height: 1;
+}
+
+.NotFound_desc {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #cdcfd2;
+  margin-bottom: 2em;
+}
+
+.NotFound_btn {
+  border: 1px solid #66abe0;
+  color: #66abe0;
+  background-color: transparent;
+  font-size: 1em;
+  padding: 0.6em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.NotFound_btn:hover {
+  background-color: #66abe0;
+  color: #cdcfd2;
+}
