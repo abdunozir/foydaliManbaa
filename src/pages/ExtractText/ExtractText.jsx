@@ -1,6 +1,5 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import Tesseract from "tesseract.js";
-import { CopyToClipboard } from "react-copy-to-clipboard";
 
 import "./ExtractText.css";
 
@@ -10,9 +9,6 @@ export default function ExtractText() {
   let [lang, setLang] = useState("eng");
   let [audioLang, setAudioLang] = useState("en");
   let [changed, setChanged] = useState(false);
-  let [copied, setCopied] = useState(false);
-
-  const textRef = useRef(null);
 
   const handleFileInputChange = (event) => {
     setChanged(true);
@@ -67,13 +63,13 @@ export default function ExtractText() {
             onChange={(e) => {
               setLang(e.target.value);
               let lng = e.target.value;
-              if (lng == "eng") {
+              if (lng === "eng") {
                 setAudioLang("en");
-              } else if (lng == "uzb") {
+              } else if (lng === "uzb") {
                 setAudioLang("en");
-              } else if (lng == "rus") {
+              } else if (lng === "rus") {
                 setAudioLang("ru");
-              } else if (lng == "tur") {
+              } else if (lng === "tur") {
                 setAudioLang("tr");
               }
             }}

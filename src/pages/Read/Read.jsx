@@ -1,10 +1,8 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import "./Read.css";
 
 export default function Read() {
-  let [src, setSrc] = useState(null);
   let [lang, setLang] = useState("en");
   let [text, setText] = useState(null);
   //   useEffect(() => {

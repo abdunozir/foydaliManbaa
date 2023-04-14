@@ -24,7 +24,7 @@ export default function KrilLotin() {
   function changeText(e) {
     setText(`${e.target.value}`);
     console.log(e.target.value);
-    if (e.target.value.length == 0) {
+    if (e.target.value.length === 0) {
       setResult(null);
     }
   }
@@ -63,7 +63,7 @@ export default function KrilLotin() {
           ></textarea>
         </div>
         <div className="kirillotin_result">
-          <h2>{lang == "lotin" ? "Kirilga" : "Lotinga"}</h2>
+          <h2>{lang === "lotin" ? "Kirilga" : "Lotinga"}</h2>
           <div className="kirillotin_result-context">
             <div
               dangerouslySetInnerHTML={{

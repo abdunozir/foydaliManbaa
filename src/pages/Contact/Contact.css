@@ -101,4 +101,16 @@
     align-items: center;
     justify-content: center;
   }
+  .form {
+    width: 90%;
+  }
+  .form div {
+    width: 100%;
+  }
+  .form input {
+    width: 100%;
+  }
+  .form textarea {
+    width: 100%;
+  }
 }

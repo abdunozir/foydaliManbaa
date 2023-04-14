@@ -5,7 +5,7 @@ import "./App.css";
 import Container from "./components/Container/Container";
 import ExtractText from "./pages/ExtractText/ExtractText";
 import Header from "./components/Header/Header";
-import ChangeType from "./pages/ChangeType/ChangeType";
+// import ChangeType from "./pages/ChangeType/ChangeType";
 import KrilLotin from "./pages/KrilLotin/KrilLotin";
 import Read from "./pages/Read/Read";
 import NotFound from "./pages/NotFound/NotFound";

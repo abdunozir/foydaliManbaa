@@ -2,6 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:active {
+  user-select: none;
+  touch-action: none;
+  box-shadow: none;
+}
+
+*:focus {
+  user-select: none;
+  box-shadow: none;
+}
+
+svg:active:not(:focus-visible),
+svg:focus:not(:focus-visible) {
+  outline: none;
 }
 
 .App-link {
